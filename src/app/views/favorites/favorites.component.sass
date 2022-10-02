@@ -1,0 +1,46 @@
+#catbox
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    gap: 10px
+    width: 935px
+    margin: 40px auto
+
+#image
+    border-radius: 10px
+    background-position: center
+    background-size: cover
+    height: 232px
+    width: 232px
+    overflow: hidden
+
+#catwrap
+    position: relative
+
+#delete
+    position: absolute
+    top: 5px
+    right: 5px
+    background-color: red
+    width: 24px
+    height: 24px
+    border-radius: 2px
+    
+#delete:hover, #image:hover 
+    cursor: pointer
+
+#delete:hover
+    transform: scale(1.5)
+
+#noFavsFound 
+    text-align: center
+    font-weight: 800
+    margin: 20px 0
+
+#deletespinner
+    width: 24px
+    z-index: 1
+    position: fixed
+    top: 50%
+    right: 50%
+    border-radius: 10px
+    
